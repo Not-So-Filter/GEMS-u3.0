@@ -66,13 +66,13 @@ _Z80END
 	even
 
 _patchbank
-     incbin   GEMS/EARTHWORM/Instruments.bin
+     incbin   GEMS/SPINBALL/Instruments.bin
 _envbank
-     incbin   GEMS/EARTHWORM/Envelopes.bin
+     incbin   GEMS/SPINBALL/Envelopes.bin
 _seqbank
-     incbin   GEMS/EARTHWORM/Sequences.bin
+     incbin   GEMS/SPINBALL/Sequences.bin
 _sampbank
-     incbin   GEMS/EARTHWORM/Samples.bin
+     incbin   GEMS/SPINBALL/Samples.bin
 
 ;     align     2
 	even
