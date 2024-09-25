@@ -60,19 +60,19 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; DATA INCLUDES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 _Z80CODE
-     include   GEMS/z80.asm
+     incbin   ../OUT/GEMS/GEMSZ80.BIN
 _Z80END
 ;     align     2
 	even
 
 _patchbank
-     include   GEMS/pbank.asm
+     incbin   GEMS/EARTHWORM/Instruments.bin
 _envbank
-     include   GEMS/mbank.asm
+     incbin   GEMS/EARTHWORM/Envelopes.bin
 _seqbank
-     include GEMS/sbank.asm
+     incbin   GEMS/EARTHWORM/Sequences.bin
 _sampbank
-     include GEMS/dbank.asm
+     incbin   GEMS/EARTHWORM/Samples.bin
 
 ;     align     2
 	even
